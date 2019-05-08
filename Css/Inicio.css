@@ -1,0 +1,69 @@
+html{ 
+   /*background: linear-gradient(to right, #C33764, #1D2671);*/
+ 
+ /* background: url("https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?cs=srgb&dl=actuacion-aplaudir-aplausos-196652.jpg&fm=jpg");
+  background-size: 100%;*/
+
+  /*como pongo una imagen de fondo sin que sea un link?*/
+  /* background-image: url("https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?cs=srgb&dl=actuacion-aplaudir-audiencia-196652.jpg&fm=jpg");*/
+}
+
+
+
+
+.absolute{
+  margin: 15% 30% 15% 30% ;
+  
+   text-align: center ;
+  /* background: linear-gradient(to right, #C33764, #1D2671);*/
+  /*background: url("https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?cs=srgb&dl=actuacion-aplaudir-aplausos-196652.jpg&fm=jpg");*/
+/*background-image: url("https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=actuacion-audiencia-bailando-1190298.jpg&fm=jpg");*/
+background-image: url("https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?cs=srgb&dl=actuacion-audiencia-bailando-1587927.jpg&fm=jpg");
+/*background-image: url("https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80 ");*/
+/*background-image: url("https://cdn.pixabay.com/photo/2015/05/15/14/50/concert-768722_960_720.jpg");*/
+/*background-image: url("../img/pexels-photo-1047940.jpeg");*/
+background-size: cover;
+
+
+   
+    }
+
+
+
+
+.Logo{
+   /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  */font-family: 'Akronim', cursive;
+  
+  }
+
+    h1{
+     font-size: 100px;
+     color: black
+     
+  }
+    h4{
+   font-size: 30px;
+  }
+  
+
+  .isologo{
+     /*font-style:italic;*/
+     /*font-family: 'Handlee', cursive;*/
+     /*font-family: 'Nova Script', cursive;*/
+     font-family: 'Yellowtail', cursive;
+     }
+  
+ .botton{
+   float: left;
+   margin-left: 22%;
+   margin-right: 20%;
+    }
+  
+   
+
+   
+   
+   
+
+
