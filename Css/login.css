@@ -1,0 +1,78 @@
+
+<!--
+=========================================================
+					LOGIN.CSS
+=========================================================
+-->
+
+body {
+    margin: 0;
+    padding: 0;
+    Background: linear-gradient(to right, #C33764, #1D2671);
+}
+
+
+main .titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+
+}
+
+main .formulario{
+    background-color: #bc17dd1e;
+    width: 500px;
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+    border: 2px rgba(255, 255, 255, 0.308) solid;
+    border-radius: 20px;
+}
+
+main .formulario .contenedor-formulario {
+    
+}
+
+
+main .formulario .contenedor-formulario .btn {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+main .formulario .contenedor-formulario .btn2 {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    color: white;
+    background-color: rgb(8, 226, 255);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+main .formulario .contenedor-formulario .btn3 {
+
+    width: 100px;
+    padding: 20px 5px 20px 0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+main .formulario a {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
