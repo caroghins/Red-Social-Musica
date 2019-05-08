@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login - SutraMusic</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500,700" rel="stylesheet">    
+    </head>
+    <body>
+        <div class="container">
+            <h1>Registro</h1>
+            <form class="form">
+                <p class="form-datos">Nombre</p>
+                <input class="form-input" type="text" placeholder="Nombre" required><br>
+                <p class="form-datos">Email</p>
+                <input class="form-input" type="email" placeholder="Correo electrónico" required><br>
+                <p class="form-datos">Usuario</p>
+                <input class="form-input" type="text" placeholder="Nombre de usuario" required><br>
+                <p class="form-datos">Contraseña</p>
+                <input class="form-input" type="password" placeholder="Contraseña" required><br>
+                <p class="form-datos">Fecha de nacimiento</p>
+                <input class="form-input" type="date" placeholder="Fecha de nacimiento"><br>
+                <p class="form-datos">Género</p>
+                <div class="radio">
+                    <input class="radio" type="radio" name="genero" value="femenino">Femenino
+                    <input class="radio" type="radio" name="genero" value="masculino">Masculino
+                    <input class="radio" type="radio" name="genero" value="otro">Otro<br><br>    
+                </div>
+                <button type="submit" class="boton">Registrarme</button>
+            </form>
+        </div>
+    </body>
+</html>

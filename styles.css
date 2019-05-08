@@ -1,0 +1,62 @@
+html {
+    /* background: linear-gradient(to right, #C33764, #1d2671); */
+    background-image: url(https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+h1 {
+    font-size: 40px;
+}
+.container {
+    width: 450px;
+    padding-top: 10px;
+    border-color: #000000;
+    margin-left: 430px;
+}
+h1 {
+    padding-left: 60px;
+}
+.form {
+    padding-left: 120px;
+    height: 500px;
+    font-weight: lighter;
+}
+.form-datos {
+    margin-bottom: 3px;
+    margin-top: 22px;
+}
+.form-input {
+    margin-top: 5px;
+}
+input {
+    background-color: none;
+    height: 26px;
+    border-style: none;
+    border-radius: 5px;
+    border-color: #F5F5F5;
+    outline: none;
+}
+/*input:focus {
+    border: 3px solid #FFFFFF; */
+}
+.radio {
+ position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}                             /*what the fuck*/
+.boton {
+    height: 30px;
+    width: 145px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border-style: none;
+    font: lighter 16px 'Raleway', sans-serif;
+}
+.boton:hover{
+    background: rgba(0,0,0,70%);
+    color: #FFFFFF;
+    transition: 0.5s; 
+}
