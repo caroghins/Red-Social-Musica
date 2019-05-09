@@ -1,19 +1,21 @@
 
-<!--
+/*
 =========================================================
 					LOGIN.CSS
 =========================================================
--->
+*/
 
 body {
-    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    /* background-size: cover; */
     padding: 0;
-    Background: linear-gradient(to right, #C33764, #1D2671);
+    margin: 0;
+    background: linear-gradient(to right, #c33764, #1d2671);
+    background-image: url("../img/pexels-photo-952437.jpeg");
 }
 
 
 main .titulo h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
 
@@ -48,19 +50,29 @@ main .formulario .contenedor-formulario .btn2 {
     margin: 20px auto;
     width: 150px;
     color: white;
-    background-color: rgb(8, 226, 255);
+    background-color: rgb(9, 5, 253);
     padding: 20px;
-    border: none;
+    border: 1px solid #ffffff69;
     border-radius: 10px;
 }
 
-main .formulario .contenedor-formulario .btn3 {
+main .formulario .contenedor-formulario .btn2:hover {
+    background-color: rgb(27, 24, 172);
+    border: 1px solid white;
+}
 
+main .formulario .contenedor-formulario .btn3 {
     width: 100px;
     padding: 20px 5px 20px 0;
     border: none;
     border-radius: 10px;
     color: white;
+    
+}
+
+main .formulario .contenedor-formulario .btn3-input {
+    margin: 0;
+
 }
 
 main .formulario a {
@@ -71,6 +83,7 @@ main .formulario a {
     text-decoration: none;
     color: white;
 }
+
 
 
 
